@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Pong</title>
+	<script src='app.js'></script>
+</head>
+<body>
+	<canvas id='canvas'></canvas>
+	<table>
+		<tr>
+			<td>
+				<h3>Controls</h3>		
+				<span>Player 1:</span>
+				<ul>
+					<li>UP = Key W</li>
+					<li>DOWN = Key S</li>
+				</ul>
+				
+				<span>Player 2:</span>
+				<ul>
+					<li>UP = Key Up</li>
+					<li>DOWN = Key Down</li>
+				</ul>
+				PAUSE and RESTART: Click on the game area						
+			</td>
+			<td>
+				<form onsubmit="return changeNicknames()">
+					<h3>Nickname</h3>
+					<input id="player1" type="text" style="display: inherit;" value="Player1">
+					<input id="player2" type="text" style="display: inherit;" value="Player2">
+					<input type="submit" value="update">
+				</form>					
+			</td>				
+		</tr>
+	</table>		
+</body>
+</html>
