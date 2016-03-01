@@ -1,6 +1,6 @@
 # Pong
 
-A simple html5 version of the classic game Pong.
+Description coming soon
 
 - - -
 MIT licensed.
